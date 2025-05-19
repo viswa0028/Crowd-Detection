@@ -21,9 +21,6 @@ This project is a smart crowd detection system that uses computer vision to iden
 - Python 3.6+
 - PyTorch
 - OpenCV (cv2)
-- NumPy
-- Pandas
-- SciPy
 - YOLOv5 (loaded via torch.hub)
 
 ## 🚀 Installation
@@ -97,15 +94,10 @@ This project is a smart crowd detection system that uses computer vision to iden
 - Create a web interface for parameter tuning
 - Support multiple camera inputs
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [YOLOv5](https://github.com/ultralytics/yolov5) for object detection
 
----
 
 ### 📊 Sample Output
 
@@ -121,6 +113,3 @@ Video Input → Frame Processing → Person Detection →
 Spatial Analysis → Crowd Identification → Alert Generation
 ```
 
----
-
-Made with ❤️ by [Your Name]
